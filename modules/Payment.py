@@ -1,0 +1,2 @@
+def Payment():
+    print("Payment")

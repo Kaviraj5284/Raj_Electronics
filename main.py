@@ -14,17 +14,13 @@ def main():
                     print("Exiting the program ...\n")
                     exit()
                 case 1:
-                    # Booking()
-                    print("Booking...")
+                    Booking.Booking()
                 case 2:
-                    # Accessories()
-                    print("Accessory")
+                    Accessories.Accessories()
                 case 3:
-                    # Payment()
-                    print("Payment")
+                    Payment.Payment()
                 case 4:
-                    # Record()
-                    print("Record")
+                    Record.Record()
         except Exception as e:
             print("Exception: {}".format(e))
 

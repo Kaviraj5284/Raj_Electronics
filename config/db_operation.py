@@ -17,6 +17,7 @@ def connect_to_database() -> mysql.connector:
     return connection
 
 def create_cursor(connection):
+    print("Connection is ready!!")
     return connection.cursor()
 
 def close_connection(connection):
